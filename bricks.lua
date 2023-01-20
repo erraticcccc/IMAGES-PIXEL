@@ -1,7 +1,4 @@
-local function returnTableSimple(table)
-	return table
-end
-local funnytable = {
+return {
 	[1] = { [1] = 3, [2] = 6, [3] = 8},
 	[2] = { [1] = 3, [2] = 6, [3] = 8},
 	[3] = { [1] = 3, [2] = 6, [3] = 8},
@@ -24339,4 +24336,3 @@ local funnytable = {
 	[24335] = { [1] = 255, [2] = 255, [3] = 255},
 	[24336] = { [1] = 255, [2] = 255, [3] = 255}
 }
-returnTableSimple(funnytable)
